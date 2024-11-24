@@ -1,0 +1,294 @@
+body {
+    background-color:rgb(251, 229, 202)
+}
+.darkmode {
+    color: rgb(251, 229, 202);
+    background-color: rgb(1, 1, 57);
+
+}
+.darkmode header {
+    color: rgb(1, 1, 57);
+    background-color: rgb(251, 229, 202);
+
+}
+
+.darkmode .titre {
+    color: rgb(1, 1, 57);
+    
+}
+.darkmode footer {
+    color: rgb(1, 1, 57);
+    background-color: rgb(251, 229, 202);
+
+}
+.darkmode label {
+    color: rgb(1, 1, 57)
+}
+
+.lightmode {
+    color: rgb(1, 1, 57);
+    background-color: rgb(251, 229, 202);
+}
+
+.lightmode button {
+    background-color: rgb(251, 229, 202);
+}
+.darkmode button {
+    background-color: rgb(1, 1, 57);
+    color: rgb(251, 229, 202);
+}
+
+button {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+    background-color: rgb(251, 229, 202);
+}
+.button-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 5px;               
+    margin-top: 20px;       
+}
+
+.ouistiti-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 5px;               
+    margin-top: 60px;       
+}
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+header, .menu, .footer{
+    background-color: rgb(1, 1, 57);;
+
+}
+a{
+    color: rgb(251, 229, 202);
+    font-family: 'Cormorant', sans-serif;
+    
+}
+.container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+
+.titre{
+    font-size: 40px;
+    color: rgb(251, 229, 202);
+    font-family: 'Abril Fatface', sans-serif;
+    
+}
+
+label {
+    display: block;
+    font: 2rem 'Fira Sans',sans-serif;
+    color:rgb(251, 229, 202)
+
+  }
+  
+  input,label {
+    margin: 0.5rem;
+  }
+  input[type="recherche"] {
+    width: 350px; 
+}
+
+.menu{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+}
+
+.home{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    align-items: stretch; /*pour que l'image et texte prennent meme espace*/
+    
+}
+.laufeygrammy{
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+
+    height: auto; 
+    
+}
+.biography{
+    color:rgb(1, 1, 57);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(251, 229, 202);
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur des onglets */
+.tabs-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Liste des onglets */
+ul.tabs {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+li.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(1, 1, 57);
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease;
+    color: rgb(251, 229, 202);
+}
+
+li.tab:hover {
+    color: rgb(251, 229, 202);
+    background-color: #87cefa;
+    
+}
+
+/* Onglet actif */
+li.tab-active {
+    background-color: rosybrown;
+    color: rgb(251, 229, 202);
+}
+
+/* Contenus */
+.content {
+    display: none;
+    background-color: rgb(251, 229, 202);
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+/* Montrer le contenu actif */
+.content.active {
+    display: block;
+}
+
+.footer{
+    color: rgb(251, 229, 202);
+    font-family: 'Cormorant', sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+.contacts{ 
+    font-size: 170%;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    align-items: column;
+    justify-content: space-evenly;
+    margin-left: 0.2rem;
+    padding: 0.3rem;
+}
+.home .p{
+    font-size: 400px
+}
+
+.logo {
+    display: flex;
+   margin-top: 50px;
+}
+.typicalofme,.EIKAL,.bewitched,.bewitchedgoddess {
+    align-items: center;
+    text-align: center;
+    }
+  
+form{ 
+    border : 1px solid rgba(153,153,153,0.6);
+}
+
+form>div {
+    margin : 3px 10px;
+}
+
+label {
+    display : block;
+    margin-bottom : 8px;
+}
+input {
+    height:10px;
+    width: 50%;
+}
+.success {
+    border: 1px solid rgb(81,150,2)
+    backgroound-color:rgba(113,212,0,0.4);
+}
+.message-error {
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color:rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-error {
+border: 1px solid rgba(81,150,2);
+    color: rgb(81,150,2);
+    background-color:rgba(113,212,0,0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+input.valid {
+    border-color: green;
+    background-color: #e0f7e0;
+}
+
+input.invalid {
+    border-color: red;
+    background-color: #f7e0e0;
+}
